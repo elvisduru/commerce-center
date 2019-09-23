@@ -1,0 +1,31 @@
+.Ad > a {
+  display: flex;
+  align-items: center;
+  padding: 18px 5px 18px 20px;
+  border-bottom: 1px solid #f5f6f6;
+  text-decoration: none;
+  color: unset;
+  cursor: pointer;
+}
+
+.Ad img {
+  margin-right: 12px;
+  width: 99px;
+  height: 86px;
+  object-fit: cover;
+  object-position: center;
+  background-color: #f5f6f6;
+  flex-shrink: 0;
+}
+
+.Ad h4 {
+  font-size: 15px;
+  line-height: 22px;
+  font-family: heebobold;
+}
+
+.Ad p {
+  font-size: 11px;
+  line-height: 17px;
+  margin-top: 5px;
+}

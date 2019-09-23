@@ -1,0 +1,4 @@
+.AdList {
+  display: flex;
+  flex-direction: column;
+}
