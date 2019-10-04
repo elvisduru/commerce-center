@@ -10,6 +10,7 @@
   right: 0;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   height: 60px;
+  z-index: 1;
 }
 
 .Header div {
@@ -21,4 +22,10 @@
 
 .Header div img {
   margin-right: 10px;
+}
+
+@media (min-width: 768px) {
+  .Header {
+    padding: 0 18%;
+  }
 }

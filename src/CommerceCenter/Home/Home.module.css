@@ -30,3 +30,10 @@
   color: #3e3e3e;
   cursor: pointer;
 }
+
+@media (min-width: 768px) {
+  .links a {
+    width: 200px;
+    padding: 15px 0;
+  }
+}

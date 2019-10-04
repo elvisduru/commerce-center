@@ -2,3 +2,9 @@
   color: #3e3e3e;
   font-family: heeboregular;
 }
+
+@media (min-width: 768px) {
+  .App {
+    padding: 0 18%;
+  }
+}

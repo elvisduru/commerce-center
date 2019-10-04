@@ -1,0 +1,261 @@
+.Preview main {
+  margin-top: 60px;
+  color: #3e3e3e;
+  background-color: #f5f6f6;
+}
+
+.Preview section {
+  background-color: white;
+}
+
+.Preview section:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.description {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.description h4 {
+  font-family: heebobold;
+  font-size: 15px;
+  line-height: 20px;
+  margin-bottom: 5px;
+}
+
+.description p {
+  font-size: 13px;
+  font-family: heebolight;
+}
+
+.description a {
+  background-color: white;
+  border-radius: 3px;
+  border: 1px solid #707070;
+  padding: 7px 10px;
+  font-size: 14px;
+  text-decoration: unset;
+  color: #3e3e3e;
+  width: 110px;
+  align-self: flex-start;
+  margin-top: 5px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 15px;
+  font-size: 15px;
+}
+
+.details h3 {
+  font-family: heebobold;
+}
+
+.Preview section .audience {
+  background-color: #f5f6f6;
+  padding: 0 15px;
+  margin-top: 10px;
+}
+
+.Preview section .audience p {
+  margin: 15px 0;
+  font-family: heebomedium;
+}
+
+.formgroup {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.formgroup > p {
+  flex: 1;
+}
+
+.formgroup label {
+  font-size: 16px;
+  font-family: heebomedium;
+  display: flex;
+  align-items: center;
+}
+
+.formgroup label input {
+  margin: 0;
+  margin-right: 5px;
+  width: 20px;
+  height: 20px;
+}
+
+.formgroup label:not(:last-child) {
+  width: 25%;
+  margin-right: 30px;
+}
+
+.formgroup label:last-child {
+  color: #929292;
+  font-size: 15px;
+}
+
+.duration .details {
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.duration .details > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.days {
+  font-family: heebomedium;
+}
+
+.duration .details > * {
+  margin-bottom: 13px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.21);
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.21);
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: heebobold;
+  line-height: 29px;
+  /* margin-right: 13px; */
+  width: 100px;
+  height: 83px;
+  cursor: pointer;
+  margin-bottom: 13px;
+}
+
+.addCardBtn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 96px;
+  height: 83px;
+  border-radius: 5px;
+  border: 1px solid #707070;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.addCardBtn img {
+  margin-bottom: 10px;
+}
+
+.newCard {
+  margin-bottom: 20px;
+}
+
+.newCard > div {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to bottom, #00888d, #2e7e87);
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.newCard button {
+  background-color: #2e7e87;
+  border-radius: 3px;
+  padding: 6px 12px;
+  color: white;
+  border: none;
+  outline: none;
+  float: right;
+}
+
+.pins {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.pins > * {
+  width: 20%;
+  font-size: 20px;
+  line-height: 30px;
+  border: none;
+  outline: none;
+  letter-spacing: 5px;
+  background-color: transparent;
+  color: white;
+}
+
+.pins > *::placeholder {
+  color: white;
+}
+
+.userinfo {
+  display: flex;
+  align-items: center;
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.userinfo > div {
+  margin-right: 30px;
+}
+
+.userinfo > div p {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+
+.userinfo > div input {
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: white;
+  letter-spacing: 3px;
+}
+
+.userinfo > div input::placeholder {
+  color: white;
+}
+
+.month {
+  width: 25px;
+}
+
+.month::placeholder,
+.year::placeholder {
+  font-size: 12px;
+}
+
+.year {
+  width: 50px;
+  margin-left: 5px;
+}
+
+.cvv {
+  width: 40px;
+}
+
+.newCard h6 {
+  font-size: 10px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
