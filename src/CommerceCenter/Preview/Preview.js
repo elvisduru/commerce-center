@@ -3,7 +3,7 @@ import styles from './Preview.module.css';
 import Header from '../../components/Header/Header';
 import Title from '../../components/Title/Title';
 import SectionHeader from '../../components/SectionHeader/SectionHeader';
-import moment from 'moment';
+// import moment from 'moment';
 
 import cardImg from '../../images/card_1.svg';
 import eventImg from '../../images/ic_event_24px.svg';
@@ -140,7 +140,7 @@ export default class Preview extends Component {
                 <h4>{newAd.title}</h4>
                 <p>{newAd.description}</p>
               </div>
-              <a href={`${newAd.linkAddress}`}>{newAd.linkLabel}</a>
+              <a href={`${newAd.linkAddress}`}>{newAd.linkLabel ? newAd.linkLabel : 'Contact Us'}</a>
             </div>
           </section>
           <section>

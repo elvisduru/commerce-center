@@ -29,7 +29,7 @@ class App extends Component {
     return (
       <div className="App">
         <BrowserRouter>
-          {/* Wedeyy Menu goes in here */}
+          Wedeyy Menu goes in here
           <div className="main">
             <Switch>
               <Route exact path="/" component={Home} />
